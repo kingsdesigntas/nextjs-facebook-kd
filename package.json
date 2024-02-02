@@ -1,14 +1,13 @@
 {
   "name": "nextjs-facebook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Facebook / Meta Conversion API for Next.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
-    "./handlers": "./dist/handlers/index.js",
-    "./routes": "./dist/routes/index.js",
-    "./components": "./dist/components/index.js"
+    "./client": "./dist/client/index.js",
+    "./server": "./dist/server/index.js"
   },
   "scripts": {
     "watch": "tsc --watch",
@@ -18,6 +17,14 @@
     "link": "npx link",
     "setup": "yarn install && yarn run link && yarn run watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EfosaSO/nextjs-facebook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EfosaSO/nextjs-facebook/issues"
+  },
+  "homepage": "https://github.com/EfosaSO/nextjs-facebook#readme",
   "author": "EfosaSO",
   "license": "ISC",
   "dependencies": {
