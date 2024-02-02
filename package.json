@@ -1,0 +1,50 @@
+{
+  "name": "nextjs-facebook",
+  "version": "1.0.0",
+  "description": "Facebook / Meta Conversion API for Next.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./handlers": "./dist/handlers/index.js",
+    "./routes": "./dist/routes/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --build",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:tsc": "tsc",
+    "link": "npx link",
+    "setup": "yarn install && yarn run link && yarn run watch"
+  },
+  "author": "EfosaSO",
+  "license": "ISC",
+  "dependencies": {
+    "universal-cookie": "^7.0.1",
+    "uuid": "^9.0.1",
+    "valibot": "^0.26.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/uuid": "^9.0.7",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "next": "^11 || ^12 || ^13",
+    "react": "^16 || ^17 || ^18 || ^19",
+    "react-dom": "^16 || ^17 || ^18 || ^19"
+  },
+  "keywords": [
+    "facebook-conversion-api",
+    "fb-conversion-api",
+    "next",
+    "nextjs",
+    "typescript"
+  ]
+}
