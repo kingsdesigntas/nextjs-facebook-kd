@@ -2,7 +2,7 @@ Facebook / Meta Conversion API for Next.js
 
 > Next.js wrapper for [Facebook's Conversion API](https://developers.facebook.com/docs/marketing-api/conversions-api/)
 
-This package is forked from @rivercode/facebook-conversion-api-nextjs
+This package is forked from [@rivercode/facebook-conversion-api-nextjs](https://github.com/RivercodeAB/facebook-conversion-api-nextjs)
 
 # Facebook / Meta Conversion API for Next.js
 
