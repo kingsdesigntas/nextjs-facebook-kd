@@ -14,7 +14,7 @@ const graphApi = async <T>({
   endpoint = "",
   body = null,
 }: APIArguments): Promise<T> => {
-  const pixelId = process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID ?? ""
+  const pixelId = process.env.NEXT_PUBLIC_FB_PIXEL_ID ?? ""
 
   const request = new Request(
     `https://graph.facebook.com/v18.0/${pixelId}/${endpoint}`,
