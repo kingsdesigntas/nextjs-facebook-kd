@@ -34,7 +34,7 @@ yarn add nextjs-facebook
 
 ### App Router
 
-`app/api/route.js`
+`app/api/meta/events/route.js`
 
 ```jsx
 import { POST } from "nextjs-facebook"
@@ -44,7 +44,7 @@ export { POST }
 
 ### Pages Router
 
-`pages/api/fb-events.js`
+`pages/api/meta/events.js`
 
 ```jsx
 import { fbEventsHandler } from "nextjs-facebook"
