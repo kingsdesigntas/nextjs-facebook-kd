@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-facebook",
+  "name": "nextjs-facebook-kd",
   "version": "1.0.4",
   "description": "Facebook / Meta Conversion API for Next.js",
   "main": "dist/index.js",
@@ -10,6 +10,7 @@
     "./server": "./dist/server/index.js"
   },
   "scripts": {
+    "prepare": "tsc",
     "watch": "tsc --watch",
     "build": "tsc --build",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
@@ -43,7 +44,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "next": "^11 || ^12 || ^13",
+    "next": "^11 || ^12 || ^13 || ^14",
     "react": "^16 || ^17 || ^18 || ^19",
     "react-dom": "^16 || ^17 || ^18 || ^19"
   },
